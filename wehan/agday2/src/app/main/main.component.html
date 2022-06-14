@@ -1,4 +1,6 @@
-<div *ngFor="let val of cars">
+<div class="container">
+<div class="row">
+<div *ngFor="let val of cars" class="col-lg-4 col-sm-6 col-xs-12 justify-content-center">
 <div class="card" style="width: 18rem;">
     <img src="{{val.img}}" class="card-img-top" alt="...">
     <div class="card-body">
@@ -7,4 +9,6 @@
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>    
+</div>
+</div>
 </div>
